@@ -1,3 +1,9 @@
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1130px;
+  position: relative; }
+
 header > div span.brand img {
   height: 80px; }
 
@@ -78,8 +84,21 @@ header > nav.navbar {
     header > nav.navbar .sujet h1, header > nav.navbar .sujet h2 {
       margin: 0; }
 
-.container {
-  margin: auto;
-  width: 80%;
-  max-width: 1130px;
-  position: relative; }
+main.home div.passion {
+  background-color: black;
+  text-align: center; }
+  main.home div.passion p {
+    margin: 0;
+    padding: 150px 0; }
+    main.home div.passion p span {
+      border: 1px solid yellow;
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 26px; }
+      main.home div.passion p span:first-child {
+        background-color: yellow;
+        font-weight: bold; }
+      main.home div.passion p span:last-child {
+        font-weight: lighter;
+        background-color: transparent;
+        color: white; }
