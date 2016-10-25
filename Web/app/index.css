@@ -1,0 +1,85 @@
+header > div span.brand img {
+  height: 80px; }
+
+header > div ul {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0; }
+  header > div ul li {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle; }
+    header > div ul li a {
+      color: grey;
+      text-decoration: none; }
+    header > div ul li.social {
+      font-size: 0;
+      height: 35px;
+      width: 35px;
+      background-color: #888888; }
+      header > div ul li.social.social-fb {
+        background-color: cyan; }
+      header > div ul li.social.social-lkd {
+        background-color: darkcyan; }
+      header > div ul li.social.social-twt {
+        background-color: cadetblue; }
+      header > div ul li.social.social-t {
+        background-color: cornflowerblue; }
+      header > div ul li.social.social-yt {
+        background-color: steelblue; }
+
+header > nav.navbar {
+  background-color: #999;
+  height: 690px; }
+  header > nav.navbar .menu {
+    background-color: rgba(255, 255, 255, 0.5); }
+    header > nav.navbar .menu ul {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      header > nav.navbar .menu ul li {
+        list-style: none; }
+        header > nav.navbar .menu ul li:not(.search) {
+          color: white;
+          padding-left: 10px;
+          border-left: 5px solid transparent;
+          font-size: 12px;
+          text-transform: uppercase; }
+          header > nav.navbar .menu ul li:not(.search):hover {
+            color: lightseagreen;
+            border-left-color: lightseagreen; }
+        header > nav.navbar .menu ul li form {
+          color: black; }
+          header > nav.navbar .menu ul li form * {
+            float: left;
+            height: 45px;
+            border: 0;
+            padding: 0;
+            background-color: white; }
+          header > nav.navbar .menu ul li form label {
+            font-size: 0; }
+          header > nav.navbar .menu ul li form input {
+            width: 160px;
+            border-radius: 8px 0 0 8px; }
+          header > nav.navbar .menu ul li form button {
+            border-radius: 0 8px 8px 0; }
+  header > nav.navbar .sujet {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    header > nav.navbar .sujet h1, header > nav.navbar .sujet h2 {
+      margin: 0; }
+
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1130px;
+  position: relative; }

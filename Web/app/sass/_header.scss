@@ -1,0 +1,122 @@
+header {
+  > div {
+    span.brand {
+      img {
+        height: 80px;
+      }
+    }
+    ul {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      margin: 0;
+      padding: 0;
+      li {
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: middle;
+
+
+        a {
+          color: grey;
+          text-decoration: none;
+        }
+
+        &.social {
+          font-size: 0;
+          height: 35px;
+          width: 35px;
+          background-color: #888888;
+
+          &.social-fb {
+            background-color: cyan;
+          }
+
+          &.social-lkd {
+            background-color: darkcyan;
+          }
+
+          &.social-twt {
+            background-color: cadetblue;
+          }
+
+          &.social-t {
+            background-color: cornflowerblue;
+          }
+
+          &.social-yt {
+            background-color: steelblue;
+          }
+        }
+      }
+    }
+  }
+
+  > nav.navbar {
+    background-color: #999;
+    height: 690px;
+    .menu {
+      background-color: rgba(255,255,255,0.5);
+      ul {
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+          list-style: none;
+
+          &:not(.search) {
+            color: white;
+            padding-left: 10px;
+            border-left: 5px solid transparent;
+            font-size: 12px;
+            text-transform: uppercase;
+
+            &:hover {
+              color: lightseagreen;
+              border-left-color: lightseagreen;
+            }
+          }
+
+          form {
+            color: black;
+            * {
+              float: left;
+              height: 45px;
+              border: 0;
+              padding: 0;
+              background-color: white;
+            }
+            label {
+              font-size: 0;
+            }
+            input {
+              width:160px;
+              border-radius: 8px 0 0 8px;
+            }
+
+            button {
+              border-radius: 0 8px 8px 0;
+            }
+
+          }
+        }
+      }
+    }
+    .sujet {
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+
+      h1,h2{
+        margin:0;
+      }
+    }
+  }
+}
