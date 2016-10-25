@@ -102,3 +102,19 @@ main.home div.passion {
         font-weight: lighter;
         background-color: transparent;
         color: white; }
+
+main.home div.category .category-header * {
+  display: inline-block; }
+
+main.home div.category .category-content ul {
+  margin: 0;
+  padding: 0; }
+  main.home div.category .category-content ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative; }
+    main.home div.category .category-content ul li .content-text {
+      position: absolute; }
+    main.home div.category .category-content ul li .content-image {
+      width: 90px;
+      height: 220px; }

@@ -25,4 +25,39 @@ main.home {
       }
     }
   }
+
+  div.category {
+    .category-header {
+      * {
+        display: inline-block;
+      }
+    }
+
+    .category-content {
+      ul {
+        margin:0;
+        padding: 0;
+
+        li {
+          display: inline-block;
+          list-style: none;
+          position: relative;
+
+          .content-text {
+            position: absolute;
+          }
+
+          .content-image {
+            width: 90px;
+            height: 220px;
+          }
+
+
+        }
+
+
+      }
+    }
+  }
+
 }

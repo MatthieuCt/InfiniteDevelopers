@@ -70,4 +70,25 @@
         </p>
     </div>
 
+    <div id="jeffries" class="category">
+        <div class="container">
+            <div class="category-header">
+                <span class="category-title">Lee Jeffries</span>
+                <hr>
+            </div>
+            <div class="category-content">
+                <ul>
+                    <li ng-repeat="people in home.datas.jeffries">
+                        <div class="content-text">
+                            <h1>{{people.title}}</h1>
+                            <p>{{people.description}}</p>
+                        </div>
+                        <img class="content-image" src="{{people.image}}" alt="{{people.title}}">
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
 </main>
